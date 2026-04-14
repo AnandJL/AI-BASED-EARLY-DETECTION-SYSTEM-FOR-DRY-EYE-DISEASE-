@@ -45,7 +45,7 @@ print("[INFO] Initializing System...")
 # --- FIREBASE SETUP ---
 try:
     
-    cred = credentials.Certificate(r"C:\DryEyes-main\dry-eyes-detection-firebase-adminsdk-fbsvc-5fd7a31492.json")
+    cred = credentials.Certificate(r"INSERT .JSON FILE NAME YOU DOWNLOADED FROM YOUR FIREBASE")
     firebase_admin.initialize_app(cred, {
         "databaseURL": "https://dry-eyes-detection-default-rtdb.asia-southeast1.firebasedatabase.app"
     })

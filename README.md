@@ -6,29 +6,6 @@ End-to-end IoT &amp; Computer Vision system for Dry Eye detection using Python, 
 > 
 > **The Paradigm Shift:** Traditional healthcare treats visual fatigue *after* the symptoms become painful. This project shifts the paradigm to **proactive, closed-loop care**. By tracking ocular morphology in real-time, this system not only alerts users to dangerous fatigue but actually *fixes the environment* by autonomously triggering a physical humidifier to restore ambient moisture before damage occurs.
 
-
-# PREREQUISITES
-
-> Note: You will need the shape_predictor_68_face_landmarks.dat file to run this system.
- Download it [here](https://www.google.com/search?q=http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2), extract it, and place it in the root directory.
-
-## <b> 1. Computer Vision & Math Engine <b>
-
-> pip install opencv-python numpy scipy imutils
-
-## <b> 2. Face Recognition <b>
-
-> pip install cmake
-
-> pip install dlib
-
-> pip install face-recognition
-
-## <b> 3. Clinical Data Visualization <b>
-
-> pip install matplotlib
-
-
 # Tools & Technologies
 
 > Python –  Core application logic, edge processing, and backend AI pipeline.

@@ -1,3 +1,26 @@
+# PREREQUISITES
+
+> Note: You will need the shape_predictor_68_face_landmarks.dat file to run this system.
+ Download it [here](https://www.google.com/search?q=http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2), extract it, and place it in the root directory.
+
+## <b> 1. Computer Vision & Math Engine <b>
+
+> pip install opencv-python numpy scipy imutils
+
+## <b> 2. Face Recognition <b>
+
+> pip install cmake
+
+> pip install dlib
+
+> pip install face-recognition
+
+## <b> 3. Clinical Data Visualization <b>
+
+> pip install matplotlib
+
+
+
 # How to Run the System (Execution Guide)
 > Follow these steps in order to properly initialize the cloud, hardware, frontend, and AI backend without experiencing serial port conflicts.
 
@@ -6,6 +29,8 @@
 > Navigate to your Firebase Console and generate a new Private Key (.json file) from Project Settings > Service Accounts.
 
 > Place the downloaded .json file into the root directory of your project.
+
+> Update the .json file name in your PROJECT.py code and add your google api key to index.html.
 
 > Open PROJECT.py and ensure the databaseURL and the credential path accurately point to your Firebase project.
 

@@ -116,4 +116,8 @@ End-to-end IoT &amp; Computer Vision system for Dry Eye detection using Python, 
 
 > Expand environmental controls to adjust screen brightness automatically based on room conditions.
 
+# Contributing & Licensing
 
+Contributions, issues, and feature requests are welcome!
+
+Distributed under the MIT License. See LICENSE for more information.
